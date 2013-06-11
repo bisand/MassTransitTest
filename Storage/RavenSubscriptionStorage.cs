@@ -14,7 +14,7 @@ namespace Storage
 
         static RavenSubscriptionStorage()
         {
-            InternalDocumentStore = new DocumentStore {DefaultDatabase = "Subscriptions", Url = "http://POHVTRDB01:8090/"};
+            InternalDocumentStore = new DocumentStore {DefaultDatabase = "Subscriptions", Url = "http://localhost:8080/"};
             InternalDocumentStore.Initialize();
         }
 
